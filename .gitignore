@@ -46,6 +46,7 @@ coverage.xml
 cover/
 
 # Virtual environments
+.env
 .venv
 env/
 venv/
@@ -60,6 +61,7 @@ uv.lock
 python-sdk/
 
 # IDEs
+.vscode/
 .idea/
 *.swp
 *.swo
@@ -97,9 +99,8 @@ logs/
 
 # Local configuration
 local_config.json
+.env.local
 
 # MCP specific
 mcp_test_*
 temp_documents/
-config.bat
-node_modules
